@@ -155,7 +155,9 @@ small {
 	font-size: 10px;
 	color: #bbb;
 	margin: 10px;
-	padding-bottom: 10px;
+	position: fixed;
+	bottom: 2.5px;
+	left: 5px;
 }
 small a {
 	color: #aaa;
