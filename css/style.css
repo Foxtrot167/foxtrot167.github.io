@@ -53,6 +53,9 @@ a {
 .hide {
 	display: none;
 }
+.centered {
+	text-align: center;
+}
 
 /* Home ----------------------------------------------------------------------- */
 @media screen and (max-width: 360px) {
@@ -68,7 +71,7 @@ header {
 	margin-top: -110px;
 }
 header h1 {
-	font-family: LeagueGothic;
+	font-family: LeagueGothic, helvetica;
 	font-size: 125px;
 	line-height: 1;
 	text-align: center;
@@ -77,7 +80,7 @@ header h1 {
 	font-weight: 400;
 }
 header h1 em {
-	font-family: LeagueGothic;
+	font-family: LeagueGothic, helvetica;
 	font-weight: 400;
 	font-size: 45px;
 	text-align: center;
@@ -86,7 +89,7 @@ header h1 em {
 	padding: 0 20px;
 }
 header h2 {
-	font-family: LeagueGothic;
+	font-family: LeagueGothic, helvetica;
 	font-size: 35px;
 	text-align: center;
 	color: #000;
@@ -142,6 +145,24 @@ header h2 a:hover {
 }
 #icons li:hover {
 	color: #8B3F00;
+}
+/* Footer */
+footer {
+	text-align: left;
+}
+small {
+	font-family: Junction, helvetica;
+	font-size: 10px;
+	color: #bbb;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+small a {
+	color: #aaa;
+	transition: .4s color ease-in-out;
+}
+small a:hover {
+	color: #265865;
 }
 
 /* Blog ----------------------------------------------------------------------- */
