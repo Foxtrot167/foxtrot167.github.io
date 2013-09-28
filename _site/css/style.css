@@ -41,6 +41,10 @@ body {
 img {
 	text-align: center;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 
 /* Global Styles -------------------------------------------------------------- */
 .white {
@@ -53,7 +57,7 @@ img {
 	display: none;
 }
 
-/* Header --------------------------------------------------------------------- */
+/* Home ----------------------------------------------------------------------- */
 @media screen and (max-width: 360px) {
 	header h1 {
 		font-size: 75px !important;
@@ -120,6 +124,25 @@ header h2 a:hover {
 	top: 20px;
 	margin: 20px;
 	border: 0px solid #000;
+}
+
+/* Icons! */
+#icons {
+	text-align: center;
+}
+#icons ul {
+	display: inline-block;
+	list-style: none;
+}
+#icons li {
+	display: inline-block;
+	color: #bbb;
+	font-size: 55px;
+	margin: 10px;
+	transition: .35s all;
+}
+#icons li:hover {
+	color: #8B3F00;
 }
 
 /* Blog ----------------------------------------------------------------------- */
