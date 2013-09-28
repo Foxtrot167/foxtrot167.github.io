@@ -49,11 +49,15 @@ img {
 .black {
 	color: black !important;
 }
+.hide {
+	display: none;
+}
 
 /* Header --------------------------------------------------------------------- */
 @media screen and (max-width: 360px) {
 	header h1 {
 		font-size: 75px !important;
+		padding-top: .75em;
 	}
 	header h2 {
 		font-size: 25px !important;
@@ -110,6 +114,12 @@ header h2 a:hover {
 	width: 200px;
 	height: 200px;
 	border: 5px solid #000;
+}
+#profile-mobile {
+	border-radius: 50%;
+	top: 20px;
+	margin: 20px;
+	border: 0px solid #000;
 }
 
 /* Blog ----------------------------------------------------------------------- */
