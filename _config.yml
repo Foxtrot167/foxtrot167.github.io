@@ -1,4 +1,4 @@
 relative_permalinks: true
-permalink: /blog/:year/:month/:day/
+permalink: /blog/:title
 timezone: America/New_York
 excerpt_separator: ""
