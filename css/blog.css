@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
-@import url(http://cobyism.com/gridism/gridism.css);
+@import url(/css/gridism.css);
 
 body {
 	margin: 0;
@@ -58,8 +58,12 @@ a:hover {
     margin-right: auto;
     text-align: center;
 }
-.vert-centered {
-
+.divider {
+	width: 47px;
+	height: 7px;
+	background: url(/img/divider.png);
+	background-repeat: no-repeat;
+	margin-top: 40px;
 }
 
 /* Header */
@@ -95,4 +99,20 @@ header {
 	top: 20px;
 	margin: 20px;
 	border: 0px solid #000;
+}
+
+/* Footer */
+.profile-desc {
+	margin-top: 25px;
+}
+.profile-desc #profile, .profile-desc #profile:hover {
+	border: none;
+}
+.profile-desc p {
+	font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+	.profile-desc h2 {
+		font-size: 1.2em;
+	}
 }

@@ -5,4 +5,8 @@ layout: blog
 	<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
 	<center><span class="date">{{ site.time | date_to_long_string }}</span></center>
 	{{ content }}
+	
+	<span class="divider centered"></span>
+	
+	{% include profile.html %}
 </div>
