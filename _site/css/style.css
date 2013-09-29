@@ -60,7 +60,7 @@ a {
 }
 
 /* Home ----------------------------------------------------------------------- */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 586px) {
 	header h1 {
 		font-size: 75px !important;
 		padding-top: .75em;
@@ -157,9 +157,8 @@ small {
 	font-size: 10px;
 	color: #bbb;
 	margin: 10px;
-	position: fixed;
+	position: relative;
 	bottom: 2.5px;
-	left: 5px;
 }
 small a {
 	color: #aaa;
