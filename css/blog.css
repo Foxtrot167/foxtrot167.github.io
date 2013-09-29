@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,400italic);
+@import url(http://cobyism.com/gridism/gridism.css);
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #292929;
+	font-family: Merriweather, georgia, helvetica;
+}
+h1 {
+	text-align: center;
+	font-size: 40px;
+}
+h1 a {
+	text-decoration: none;
+	color: inherit;
+}
+h1 a:hover {
+	color: #292929;
+}
+p {
+	font-size: 17px;
+	line-height: 2em;
+}
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+	color: #8B3F00;
+}
+a:hover {
+	color: #652D00;
+}
+.content {
+	margin: 15px 225px;
+	overflow: hidden;
+}
+@media screen and (max-width: 768px) {
+	.content {
+		margin: 15px 30px;
+	}
+}
+.hide {
+	display: none;
+}
+.date {
+	color: #aaa;
+	font-size: 12px;
+	text-align: center;
+	font-family: arial;
+}
+.centered {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.vert-centered {
+
+}
+
+/* Header */
+header {
+	margin: 0;
+	background: #f4f4f8;
+	border-bottom: 1px solid #bbb;
+
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+
+#profile {
+	border-radius: 50%;
+	background-color: #f4f4f8;
+	border-bottom: 1px solid #e6e6e9;
+	transition: .25s border ease-in-out;
+	-webkit-transition: .25s border ease-in-out;
+	position: relative;
+	top: 0px;
+}
+@media screen and (max-width: 768px) {
+	#profile {
+		top: -12px;
+	}
+}
+#profile:hover {
+	border: 3px solid #000;
+}
+#profile-mobile {
+	border-radius: 50%;
+	top: 20px;
+	margin: 20px;
+	border: 0px solid #000;
+}

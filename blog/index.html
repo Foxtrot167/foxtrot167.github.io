@@ -3,5 +3,12 @@ layout: blog
 ---
 
 {% for post in site.posts %}
-	
+<div class="content">
+<div class="post">
+	<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+	<center><span class="date">{{ site.time | date_to_long_string }}</span></center>
+	<p>{{ post.excerpt }}</p>
+	<p><a href="{{ post.url }}">Read more...</a></p>
+</div>
+</div>
 {% endfor %}

@@ -1,4 +1,3 @@
 relative_permalinks: true
 permalink: /blog/:title
 timezone: America/New_York
-excerpt_separator: ""
