@@ -109,7 +109,7 @@ header h2 a:hover {
 #profile {
 	border-radius: 50%;
 	top: 20px;
-	margin: 20px;
+	margin: 20px 0 0 0;
 	border: 0px solid #000;
 
 	transition: .6s all ease-in-out;
